@@ -1,38 +1,38 @@
-app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
-app_icon = "fa fa-th"
-app_color = "#e74c3c"
-app_email = "hello@frappe.io"
+app_name = "fashionflow"
+app_title = "FashionFlow"
+app_publisher = "Fashion Industry Solutions"
+app_description = """Fashion Industry Management Made Simple"""
+app_icon = "fa fa-tshirt"
+app_color = "#8e44ad"
+app_email = "hello@fashionflow.io"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+source_link = "https://github.com/harshitIIITD/erpnext"
+app_logo_url = "/assets/fashionflow/images/fashionflow-logo.svg"
 app_home = "/app/home"
 
 add_to_apps_screen = [
 	{
 		"name": app_name,
-		"logo": "/assets/erpnext/images/erpnext-logo.svg",
+		"logo": "/assets/fashionflow/images/fashionflow-logo.svg",
 		"title": app_title,
 		"route": app_home,
-		"has_permission": "erpnext.check_app_permission",
+		"has_permission": "fashionflow.check_app_permission",
 	}
 ]
 
 develop_version = "15.x.x-develop"
 
-app_include_js = "erpnext.bundle.js"
-app_include_css = "erpnext.bundle.css"
-web_include_css = "erpnext-web.bundle.css"
-email_css = "email_erpnext.bundle.css"
+app_include_js = "fashionflow.bundle.js"
+app_include_css = "fashionflow.bundle.css"
+web_include_css = "fashionflow-web.bundle.css"
+email_css = "email_fashionflow.bundle.css"
 
 app_include_icons = [
-	"/assets/erpnext/icons/pos-icons.svg",
+	"/assets/fashionflow/icons/pos-icons.svg",
 ]
 
 web_include_icons = [
-	"/assets/erpnext/icons/pos-icons.svg",
+	"/assets/fashionflow/icons/pos-icons.svg",
 ]
 
 doctype_js = {
@@ -113,8 +113,8 @@ calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo"]
 website_generators = ["BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"favicon": "/assets/fashionflow/images/fashionflow-favicon.svg",
+	"splash_image": "/assets/fashionflow/images/fashionflow-logo.svg",
 }
 
 # nosemgrep
@@ -278,9 +278,9 @@ standard_portal_menu_items = [
 ]
 
 sounds = [
-	{"name": "incoming-call", "src": "/assets/erpnext/sounds/incoming-call.mp3", "volume": 0.2},
-	{"name": "call-disconnect", "src": "/assets/erpnext/sounds/call-disconnect.mp3", "volume": 0.2},
-	{"name": "numpad-touch", "src": "/assets/erpnext/sounds/numpad-touch.mp3", "volume": 0.8},
+	{"name": "incoming-call", "src": "/assets/fashionflow/sounds/incoming-call.mp3", "volume": 0.2},
+	{"name": "call-disconnect", "src": "/assets/fashionflow/sounds/call-disconnect.mp3", "volume": 0.2},
+	{"name": "numpad-touch", "src": "/assets/fashionflow/sounds/numpad-touch.mp3", "volume": 0.8},
 ]
 
 has_upload_permission = {"Employee": "erpnext.setup.doctype.employee.employee.has_upload_permission"}
