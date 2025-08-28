@@ -1,9 +1,9 @@
 [project]
-name = "erpnext"
+name = "fashionflow"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Fashion Industry Solutions", email = "hello@fashionflow.io"}
 ]
-description = "Open Source ERP"
+description = "Open Source Fashion Industry Management System"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
@@ -79,6 +79,6 @@ docstring-code-format = true
 
 
 [project.urls]
-Homepage = "https://frappe.io/erpnext"
-Repository = "https://github.com/frappe/erpnext.git"
-"Bug Reports" = "https://github.com/frappe/erpnext/issues"
+Homepage = "https://github.com/harshitIIITD/erpnext"
+Repository = "https://github.com/harshitIIITD/erpnext.git"
+"Bug Reports" = "https://github.com/harshitIIITD/erpnext/issues"
